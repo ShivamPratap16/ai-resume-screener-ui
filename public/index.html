@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume Screener</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%232a78d6'/><path d='M9 17l4 4 10-10' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">✓</span>
+      <div>
+        <h1>Resume Screener</h1>
+        <p class="muted">Python + AI/agentic internship shortlist</p>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <span id="backend-status" class="pill pill-unknown" role="status" title="Backend connection">
+        <span class="dot"></span><span class="pill-text">Checking backend…</span>
+      </span>
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">◐</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="card upload-card" aria-labelledby="upload-title">
+      <div class="card-head">
+        <h2 id="upload-title">Screen resumes</h2>
+        <p class="muted">PDF, DOCX or TXT. Files go only to your local backend.</p>
+      </div>
+
+      <label id="dropzone" class="dropzone" for="file-input">
+        <input id="file-input" type="file" multiple accept=".pdf,.docx,.txt" hidden>
+        <span class="drop-icon" aria-hidden="true">⇪</span>
+        <span><strong>Drop resumes here</strong> or click to choose</span>
+        <span class="muted small">Up to 100 files · 50 MB total</span>
+      </label>
+
+      <ul id="file-list" class="file-list" aria-live="polite"></ul>
+
+      <div class="actions">
+        <button id="screen-btn" class="btn btn-primary" type="button" disabled>Screen resumes</button>
+        <button id="cancel-btn" class="btn" type="button" hidden>Cancel</button>
+        <span class="spacer"></span>
+        <button id="demo-btn" class="btn btn-ghost" type="button">Load demo results</button>
+        <label class="btn btn-ghost" for="json-input">Open results.json
+          <input id="json-input" type="file" accept=".json,application/json" hidden>
+        </label>
+      </div>
+      <p id="run-status" class="run-status" role="status" aria-live="polite"></p>
+    </section>
+
+    <section id="results" class="results" hidden aria-labelledby="results-title">
+      <div class="results-head">
+        <div>
+          <h2 id="results-title">Results</h2>
+          <p id="results-source" class="muted small"></p>
+        </div>
+        <button id="export-btn" class="btn" type="button">Export JSON</button>
+      </div>
+
+      <div id="tiles" class="tiles"></div>
+
+      <div class="toolbar">
+        <div class="tabs" role="tablist">
+          <button class="tab" role="tab" data-tab="ranked" aria-selected="true">Ranked <span class="count" id="count-ranked"></span></button>
+          <button class="tab" role="tab" data-tab="rejected" aria-selected="false">Rejected <span class="count" id="count-rejected"></span></button>
+          <button class="tab" role="tab" data-tab="failed" aria-selected="false">Failed <span class="count" id="count-failed"></span></button>
+        </div>
+        <input id="search" class="search" type="search" placeholder="Search name, skill, reason…" aria-label="Search results">
+      </div>
+
+      <div id="legend" class="legend" aria-label="Score categories"></div>
+
+      <div class="table-wrap">
+        <table id="table" class="table"></table>
+      </div>
+      <p id="empty" class="muted empty" hidden>No matches.</p>
+    </section>
+  </main>
+
+  <div id="drawer-backdrop" class="backdrop" hidden></div>
+  <aside id="drawer" class="drawer" aria-hidden="true" aria-labelledby="drawer-title" role="dialog" tabindex="-1">
+    <div class="drawer-head">
+      <div>
+        <p id="drawer-kicker" class="kicker"></p>
+        <h2 id="drawer-title"></h2>
+        <p id="drawer-sub" class="muted small"></p>
+      </div>
+      <button id="drawer-close" class="icon-btn" type="button" aria-label="Close details">✕</button>
+    </div>
+    <div id="drawer-body" class="drawer-body"></div>
+  </aside>
+
+  <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+
+  <footer class="footer muted small">
+    Backend: <a href="https://github.com/ShivamPratap16/ai-resume-screener">ai-resume-screener</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2845 @@
+{
+  "summary": {
+    "total_files": 51,
+    "parsed": 46,
+    "eligible": 28,
+    "rejected": 18,
+    "failed": 3,
+    "duplicates": 2,
+    "github_enriched": 0,
+    "llm_reviewed": 0,
+    "duration_s": 4.46
+  },
+  "ranked": [
+    {
+      "rank": 1,
+      "candidate_name": "Esha Das",
+      "eligible": true,
+      "total_score": 87.0,
+      "score_breakdown": {
+        "ai_project_depth": 40.0,
+        "python_backend": 30.0,
+        "cloud_fullstack": 12.0,
+        "github": 0.0,
+        "engineering_depth": 5.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Multi-Agent Support Copilot",
+          "agent orchestration +7: Built a LangGraph multi-agent workflow (planner, retriever, executor) with tool calling against order and refund APIs",
+          "tool calling +5: Built a LangGraph multi-agent workflow (planner, retriever, executor) with tool calling against order and refund APIs",
+          "retrieval/RAG +8: Implemented hybrid search with pgvector embeddings and re-ranking over 40k support tickets",
+          "state/memory +5: Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "evaluation +5: Added an evaluation pipeline with RAGAS and a 200-question golden set that runs in GitHub Actions",
+          "backend integration +3: Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "data processing +1: Added an evaluation pipeline with RAGAS and a 200-question golden set that runs in GitHub Actions",
+          "production/business impact +3: Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "LLM framework/API +1: Built a LangGraph multi-agent workflow (planner, retriever, executor) with tool calling against order and refund APIs",
+          "Second AI project 'Course Notes RAG Assistant' adds 25% of its 18: +4.5",
+          "Capped at 40"
+        ],
+        "python_backend": [
+          "Python +8.0/8 (applied): Built a RAG pipeline in Python over 8k policy documents using LangChain and FAISS",
+          "FastAPI +6.0/6 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "async +4.0/4 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "PostgreSQL +4.0/4 (applied): Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "Redis +3.0/3 (applied): Added Redis caching and retries with exponential backoff for LLM calls, cutting cost by 30%",
+          "other backend +3.0/3 (applied): Exposed retrieval and answer endpoints through FastAPI with async request handling",
+          "Python used in internship/work +2: AI Engineering Intern, Finlytics"
+        ],
+        "cloud_fullstack": [
+          "GCP +5.0/5 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "Docker +4.0/4 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "deployment/CI +3.0/3 (applied): Added an evaluation pipeline with RAGAS and a 200-question golden set that runs in GitHub Actions"
+        ],
+        "github": [
+          "GitHub profile 'zz-sample-esha-01' not found or private."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): Wrote pytest unit and integration tests for the retrieval layer",
+          "caching +1.0/1 (applied): Added Redis caching and retries with exponential backoff for LLM calls, cutting cost by 30%",
+          "observability +1.0/1 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "concurrency +1.0/1 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "resilience +1.0/1 (applied): Added Redis caching and retries with exponential backoff for LLM calls, cutting cost by 30%"
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "pytest",
+        "Async programming",
+        "LangGraph",
+        "AI agents",
+        "Multi-agent",
+        "Tool calling",
+        "LangChain",
+        "LlamaIndex",
+        "LLM",
+        "RAG",
+        "Embeddings",
+        "Vector search",
+        "FAISS",
+        "Qdrant",
+        "pgvector",
+        "Reranking",
+        "Chunking",
+        "LLM evaluation",
+        "PostgreSQL",
+        "Redis",
+        "REST API",
+        "GCP",
+        "Docker",
+        "CI/CD",
+        "Deployment",
+        "Testing",
+        "Caching",
+        "Observability",
+        "Failure handling",
+        "Data pipeline"
+      ],
+      "project_summary": "Multi-Agent Support Copilot: agent orchestration, tool calling, retrieval/RAG, state/memory, evaluation, backend integration and data processing, built with Python, FastAPI, LangGraph, pgvector, PostgreSQL, Redis.",
+      "projects": [
+        "Multi-Agent Support Copilot",
+        "Course Notes RAG Assistant"
+      ],
+      "github_url": "https://github.com/zz-sample-esha-01",
+      "github_summary": "GitHub profile 'zz-sample-esha-01' not found or private.",
+      "github_status": "not_found",
+      "strengths": [
+        "Strong AI/agentic project depth",
+        "Solid Python backend evidence in real work",
+        "Cloud/deployment experience",
+        "Shows engineering depth (testing, caching, resilience)"
+      ],
+      "concerns": [
+        "GitHub profile 'zz-sample-esha-01' not found or private."
+      ],
+      "evidence": [
+        "Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+        "Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_01.pdf",
+      "email": "e***@example.com"
+    },
+    {
+      "rank": 2,
+      "candidate_name": "Meera Shetty",
+      "eligible": true,
+      "total_score": 87.0,
+      "score_breakdown": {
+        "ai_project_depth": 40.0,
+        "python_backend": 30.0,
+        "cloud_fullstack": 12.0,
+        "github": 0.0,
+        "engineering_depth": 5.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Multi-Agent Support Copilot",
+          "agent orchestration +7: Built a LangGraph multi-agent workflow (planner, retriever, executor) with tool calling against order and refund APIs",
+          "tool calling +5: Built a LangGraph multi-agent workflow (planner, retriever, executor) with tool calling against order and refund APIs",
+          "retrieval/RAG +8: Implemented hybrid search with pgvector embeddings and re-ranking over 40k support tickets",
+          "state/memory +5: Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "evaluation +5: Added an evaluation pipeline with RAGAS and a 200-question golden set that runs in GitHub Actions",
+          "backend integration +3: Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "data processing +1: Added an evaluation pipeline with RAGAS and a 200-question golden set that runs in GitHub Actions",
+          "production/business impact +3: Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "LLM framework/API +1: Built a LangGraph multi-agent workflow (planner, retriever, executor) with tool calling against order and refund APIs",
+          "Second AI project 'Text-to-SQL Agent' adds 25% of its 23: +5.8",
+          "Capped at 40"
+        ],
+        "python_backend": [
+          "Python +8.0/8 (applied): Built a RAG pipeline in Python over 8k policy documents using LangChain and FAISS",
+          "FastAPI +6.0/6 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "async +4.0/4 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "PostgreSQL +4.0/4 (applied): Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "Redis +3.0/3 (applied): Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "other backend +3.0/3 (applied): Built an SQL agent with tool calling that answers analytics questions over a PostgreSQL warehouse",
+          "Python used in internship/work +2: AI Engineering Intern, Finlytics"
+        ],
+        "cloud_fullstack": [
+          "GCP +5.0/5 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "Docker +4.0/4 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "deployment/CI +3.0/3 (applied): Added an evaluation pipeline with RAGAS and a 200-question golden set that runs in GitHub Actions"
+        ],
+        "github": [
+          "GitHub profile 'zz-sample-meera-03' not found or private."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): Wrote pytest unit and integration tests for the retrieval layer",
+          "caching +1.0/1 (applied): Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "observability +1.0/1 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "concurrency +1.0/1 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "resilience +1.0/1 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker"
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "pytest",
+        "Async programming",
+        "LangGraph",
+        "AI agents",
+        "Multi-agent",
+        "Tool calling",
+        "LangChain",
+        "LLM",
+        "RAG",
+        "Embeddings",
+        "Vector search",
+        "FAISS",
+        "pgvector",
+        "Reranking",
+        "LLM evaluation",
+        "Structured output",
+        "PostgreSQL",
+        "Redis",
+        "SQL",
+        "GCP",
+        "Docker",
+        "CI/CD",
+        "Deployment",
+        "Testing",
+        "Caching",
+        "Observability",
+        "Failure handling",
+        "Data pipeline"
+      ],
+      "project_summary": "Multi-Agent Support Copilot: agent orchestration, tool calling, retrieval/RAG, state/memory, evaluation, backend integration and data processing, built with Python, FastAPI, LangGraph, pgvector, PostgreSQL, Redis.",
+      "projects": [
+        "Multi-Agent Support Copilot",
+        "Text-to-SQL Agent"
+      ],
+      "github_url": "https://github.com/zz-sample-meera-03",
+      "github_summary": "GitHub profile 'zz-sample-meera-03' not found or private.",
+      "github_status": "not_found",
+      "strengths": [
+        "Strong AI/agentic project depth",
+        "Solid Python backend evidence in real work",
+        "Cloud/deployment experience",
+        "Shows engineering depth (testing, caching, resilience)"
+      ],
+      "concerns": [
+        "GitHub profile 'zz-sample-meera-03' not found or private."
+      ],
+      "evidence": [
+        "Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+        "Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_03.pdf",
+      "email": "m***@example.com"
+    },
+    {
+      "rank": 3,
+      "candidate_name": "Kavya Rao",
+      "eligible": true,
+      "total_score": 82.6,
+      "score_breakdown": {
+        "ai_project_depth": 40.0,
+        "python_backend": 25.6,
+        "cloud_fullstack": 12.0,
+        "github": 0.0,
+        "engineering_depth": 5.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Multi-Agent Support Copilot",
+          "agent orchestration +7: Built a LangGraph multi-agent workflow (planner, retriever, executor) with tool calling against order and refund APIs",
+          "tool calling +5: Built a LangGraph multi-agent workflow (planner, retriever, executor) with tool calling against order and refund APIs",
+          "retrieval/RAG +8: Implemented hybrid search with pgvector embeddings and re-ranking over 40k support tickets",
+          "state/memory +5: Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "evaluation +5: Added an evaluation pipeline with RAGAS and a 200-question golden set that runs in GitHub Actions",
+          "backend integration +3: Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "data processing +1: Added an evaluation pipeline with RAGAS and a 200-question golden set that runs in GitHub Actions",
+          "production/business impact +3: Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "LLM framework/API +1: Built a LangGraph multi-agent workflow (planner, retriever, executor) with tool calling against order and refund APIs",
+          "Second AI project 'Research Agent with Google ADK' adds 25% of its 24: +6.0",
+          "Capped at 40"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): Multi-Agent Support Copilot | Python, LangGraph, FastAPI, PostgreSQL, Redis",
+          "FastAPI +6.0/6 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "async +4.0/4 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "PostgreSQL +4.0/4 (applied): Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "Redis +3.0/3 (applied): Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "other backend +3.0/3 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day"
+        ],
+        "cloud_fullstack": [
+          "GCP +5.0/5 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "Docker +4.0/4 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "deployment/CI +3.0/3 (applied): Added an evaluation pipeline with RAGAS and a 200-question golden set that runs in GitHub Actions"
+        ],
+        "github": [
+          "GitHub profile 'zz-sample-kavya-02' not found or private."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): Wrote pytest unit tests for each tool and deployed the agent on GCP Cloud Run",
+          "caching +1.0/1 (applied): Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "observability +1.0/1 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "concurrency +1.0/1 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "resilience +1.0/1 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker"
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "pytest",
+        "Async programming",
+        "LangGraph",
+        "Google ADK",
+        "AI agents",
+        "Multi-agent",
+        "Tool calling",
+        "LangChain",
+        "Gemini",
+        "Embeddings",
+        "Vector search",
+        "pgvector",
+        "Reranking",
+        "LLM evaluation",
+        "PostgreSQL",
+        "Redis",
+        "NoSQL stores",
+        "GCP",
+        "Docker",
+        "CI/CD",
+        "Deployment",
+        "Testing",
+        "Caching",
+        "Observability",
+        "Failure handling",
+        "Data pipeline"
+      ],
+      "project_summary": "Multi-Agent Support Copilot: agent orchestration, tool calling, retrieval/RAG, state/memory, evaluation, backend integration and data processing, built with Python, FastAPI, LangGraph, pgvector, PostgreSQL, Redis.",
+      "projects": [
+        "Multi-Agent Support Copilot",
+        "Research Agent with Google ADK"
+      ],
+      "github_url": "https://github.com/zz-sample-kavya-02",
+      "github_summary": "GitHub profile 'zz-sample-kavya-02' not found or private.",
+      "github_status": "not_found",
+      "strengths": [
+        "Strong AI/agentic project depth",
+        "Solid Python backend evidence in real work",
+        "Cloud/deployment experience",
+        "Shows engineering depth (testing, caching, resilience)"
+      ],
+      "concerns": [
+        "GitHub profile 'zz-sample-kavya-02' not found or private."
+      ],
+      "evidence": [
+        "Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+        "Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_02.pdf",
+      "email": "k***@example.com"
+    },
+    {
+      "rank": 4,
+      "candidate_name": "Nikhil Mehta",
+      "eligible": true,
+      "total_score": 82.6,
+      "score_breakdown": {
+        "ai_project_depth": 40.0,
+        "python_backend": 25.6,
+        "cloud_fullstack": 12.0,
+        "github": 0.0,
+        "engineering_depth": 5.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Multi-Agent Support Copilot",
+          "agent orchestration +7: Built a LangGraph multi-agent workflow (planner, retriever, executor) with tool calling against order and refund APIs",
+          "tool calling +5: Built a LangGraph multi-agent workflow (planner, retriever, executor) with tool calling against order and refund APIs",
+          "retrieval/RAG +8: Implemented hybrid search with pgvector embeddings and re-ranking over 40k support tickets",
+          "state/memory +5: Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "evaluation +5: Added an evaluation pipeline with RAGAS and a 200-question golden set that runs in GitHub Actions",
+          "backend integration +3: Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "data processing +1: Added an evaluation pipeline with RAGAS and a 200-question golden set that runs in GitHub Actions",
+          "production/business impact +3: Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "LLM framework/API +1: Built a LangGraph multi-agent workflow (planner, retriever, executor) with tool calling against order and refund APIs",
+          "Second AI project 'MCP Tool Server for Code Search' adds 25% of its 16: +4.0",
+          "Capped at 40"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): Multi-Agent Support Copilot | Python, LangGraph, FastAPI, PostgreSQL, Redis",
+          "FastAPI +6.0/6 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "async +4.0/4 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "PostgreSQL +4.0/4 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "Redis +3.0/3 (applied): Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "other backend +3.0/3 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day"
+        ],
+        "cloud_fullstack": [
+          "GCP +5.0/5 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "Docker +4.0/4 (applied): Containerized services with Docker and set up CI/CD with GitHub Actions",
+          "deployment/CI +3.0/3 (applied): Containerized services with Docker and set up CI/CD with GitHub Actions"
+        ],
+        "github": [
+          "GitHub profile 'zz-sample-nikhil-04' not found or private."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): Added rate limiting, caching of repository indexes and integration tests with pytest",
+          "caching +1.0/1 (applied): Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "observability +1.0/1 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "concurrency +1.0/1 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "resilience +1.0/1 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker"
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "pytest",
+        "Async programming",
+        "LangGraph",
+        "AI agents",
+        "Multi-agent",
+        "Tool calling",
+        "MCP",
+        "LangChain",
+        "LLM",
+        "Embeddings",
+        "Vector search",
+        "pgvector",
+        "Reranking",
+        "LLM evaluation",
+        "PostgreSQL",
+        "Redis",
+        "GCP",
+        "Docker",
+        "CI/CD",
+        "Deployment",
+        "Testing",
+        "Caching",
+        "Observability",
+        "Failure handling",
+        "Data pipeline"
+      ],
+      "project_summary": "Multi-Agent Support Copilot: agent orchestration, tool calling, retrieval/RAG, state/memory, evaluation, backend integration and data processing, built with Python, FastAPI, LangGraph, pgvector, PostgreSQL, Redis.",
+      "projects": [
+        "Multi-Agent Support Copilot",
+        "MCP Tool Server for Code Search"
+      ],
+      "github_url": "https://github.com/zz-sample-nikhil-04",
+      "github_summary": "GitHub profile 'zz-sample-nikhil-04' not found or private.",
+      "github_status": "not_found",
+      "strengths": [
+        "Strong AI/agentic project depth",
+        "Solid Python backend evidence in real work",
+        "Cloud/deployment experience",
+        "Shows engineering depth (testing, caching, resilience)"
+      ],
+      "concerns": [
+        "GitHub profile 'zz-sample-nikhil-04' not found or private."
+      ],
+      "evidence": [
+        "Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+        "Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_04.pdf",
+      "email": "n***@example.com"
+    },
+    {
+      "rank": 5,
+      "candidate_name": "Arjun Menon",
+      "eligible": true,
+      "total_score": 82.6,
+      "score_breakdown": {
+        "ai_project_depth": 38.0,
+        "python_backend": 25.6,
+        "cloud_fullstack": 15.0,
+        "github": 0.0,
+        "engineering_depth": 4.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Multi-Agent Support Copilot",
+          "agent orchestration +7: Built a LangGraph multi-agent workflow (planner, retriever, executor) with tool calling against order and refund APIs",
+          "tool calling +5: Built a LangGraph multi-agent workflow (planner, retriever, executor) with tool calling against order and refund APIs",
+          "retrieval/RAG +8: Implemented hybrid search with pgvector embeddings and re-ranking over 40k support tickets",
+          "state/memory +5: Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "evaluation +5: Added an evaluation pipeline with RAGAS and a 200-question golden set that runs in GitHub Actions",
+          "backend integration +3: Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "data processing +1: Added an evaluation pipeline with RAGAS and a 200-question golden set that runs in GitHub Actions",
+          "production/business impact +3: Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "LLM framework/API +1: Built a LangGraph multi-agent workflow (planner, retriever, executor) with tool calling against order and refund APIs"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): Multi-Agent Support Copilot | Python, LangGraph, FastAPI, PostgreSQL, Redis",
+          "FastAPI +6.0/6 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "async +4.0/4 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "PostgreSQL +4.0/4 (applied): Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "Redis +3.0/3 (applied): Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "other backend +3.0/3 (applied): Built a full-stack shop with React, Redux and an Express REST API backed by MongoDB"
+        ],
+        "cloud_fullstack": [
+          "GCP +5.0/5 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "Docker +4.0/4 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "deployment/CI +3.0/3 (applied): Added an evaluation pipeline with RAGAS and a 200-question golden set that runs in GitHub Actions",
+          "React/Next.js in an end-to-end project +3: E-commerce Platform"
+        ],
+        "github": [
+          "GitHub profile 'zz-sample-fs-44' not found or private."
+        ],
+        "engineering_depth": [
+          "caching +1.0/1 (applied): Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s",
+          "observability +1.0/1 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "concurrency +1.0/1 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+          "resilience +1.0/1 (applied): Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker"
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "Async programming",
+        "LangGraph",
+        "Multi-agent",
+        "Tool calling",
+        "LangChain",
+        "Embeddings",
+        "Vector search",
+        "Pinecone",
+        "pgvector",
+        "Reranking",
+        "LLM evaluation",
+        "PostgreSQL",
+        "Redis",
+        "MongoDB",
+        "REST API",
+        "GCP",
+        "Docker",
+        "CI/CD",
+        "Deployment",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "Caching",
+        "Observability",
+        "Failure handling",
+        "Data pipeline"
+      ],
+      "project_summary": "Multi-Agent Support Copilot: agent orchestration, tool calling, retrieval/RAG, state/memory, evaluation, backend integration and data processing, built with Python, FastAPI, LangGraph, pgvector, PostgreSQL, Redis.",
+      "projects": [
+        "Multi-Agent Support Copilot",
+        "E-commerce Platform"
+      ],
+      "github_url": "https://github.com/zz-sample-fs-44",
+      "github_summary": "GitHub profile 'zz-sample-fs-44' not found or private.",
+      "github_status": "not_found",
+      "strengths": [
+        "Strong AI/agentic project depth",
+        "Solid Python backend evidence in real work",
+        "Cloud/deployment experience",
+        "Shows engineering depth (testing, caching, resilience)"
+      ],
+      "concerns": [
+        "GitHub profile 'zz-sample-fs-44' not found or private."
+      ],
+      "evidence": [
+        "Async FastAPI service with retries, timeouts and structured logging; deployed on GCP Cloud Run using Docker",
+        "Persisted agent state with PostgreSQL checkpoints; Redis caching cut p95 latency from 4.1s to 1.3s"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_44.pdf",
+      "email": "a***@example.com"
+    },
+    {
+      "rank": 6,
+      "candidate_name": "Kiran Sood",
+      "eligible": true,
+      "total_score": 62.0,
+      "score_breakdown": {
+        "ai_project_depth": 34.8,
+        "python_backend": 14.2,
+        "cloud_fullstack": 12.0,
+        "github": 0.0,
+        "engineering_depth": 1.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "No AI project entry found; scored from resume-wide evidence",
+          "agent orchestration +7.0/7 (applied): Last summer I built a LangGraph agent that triages customer emails using tool calling against a CRM, with",
+          "tool calling +5.0/5 (applied): Last summer I built a LangGraph agent that triages customer emails using tool calling against a CRM, with",
+          "retrieval/RAG +8.0/8 (applied): I also implemented a RAG pipeline with embeddings in pgvector and wrote an evaluation suite with RAGAS, served",
+          "state/memory +1.8/5 (listed): conversation memory stored in PostgreSQL.",
+          "evaluation +5.0/5 (applied): I also implemented a RAG pipeline with embeddings in pgvector and wrote an evaluation suite with RAGAS, served",
+          "backend integration +3.0/3 (applied): through an async FastAPI backend deployed with Docker on GCP.",
+          "data processing +1.0/1 (applied): I also implemented a RAG pipeline with embeddings in pgvector and wrote an evaluation suite with RAGAS, served",
+          "production/business impact +3.0/3 (applied): through an async FastAPI backend deployed with Docker on GCP.",
+          "LLM framework/API +1.0/1 (applied): Last summer I built a LangGraph agent that triages customer emails using tool calling against a CRM, with"
+        ],
+        "python_backend": [
+          "Python +2.8/8 (listed): I am a final-year student who builds agentic AI systems in Python.",
+          "FastAPI +6.0/6 (applied): through an async FastAPI backend deployed with Docker on GCP.",
+          "async +4.0/4 (applied): through an async FastAPI backend deployed with Docker on GCP.",
+          "PostgreSQL +1.4/4 (listed): conversation memory stored in PostgreSQL."
+        ],
+        "cloud_fullstack": [
+          "GCP +5.0/5 (applied): through an async FastAPI backend deployed with Docker on GCP.",
+          "Docker +4.0/4 (applied): through an async FastAPI backend deployed with Docker on GCP.",
+          "deployment/CI +3.0/3 (applied): through an async FastAPI backend deployed with Docker on GCP."
+        ],
+        "github": [
+          "No GitHub profile on resume (0 points, not a rejection)."
+        ],
+        "engineering_depth": [
+          "concurrency +1.0/1 (applied): through an async FastAPI backend deployed with Docker on GCP."
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Async programming",
+        "LangGraph",
+        "AI agents",
+        "Tool calling",
+        "RAG",
+        "Embeddings",
+        "pgvector",
+        "LLM evaluation",
+        "PostgreSQL",
+        "GCP",
+        "Docker",
+        "Deployment",
+        "Data pipeline"
+      ],
+      "project_summary": "No structured AI project entry; AI exposure comes from skills/summary lines.",
+      "projects": [],
+      "github_url": null,
+      "github_summary": "No GitHub profile on resume (0 points, not a rejection).",
+      "github_status": "no_profile",
+      "strengths": [
+        "Strong AI/agentic project depth",
+        "Cloud/deployment experience"
+      ],
+      "concerns": [
+        "No Redis evidence"
+      ],
+      "evidence": [
+        "Last summer I built a LangGraph agent that triages customer emails using tool calling against a CRM, with",
+        "Last summer I built a LangGraph agent that triages customer emails using tool calling against a CRM, with"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_40.pdf",
+      "email": "k***@example.com"
+    },
+    {
+      "rank": 7,
+      "candidate_name": "Nandini Chopra",
+      "eligible": true,
+      "total_score": 54.6,
+      "score_breakdown": {
+        "ai_project_depth": 21.0,
+        "python_backend": 18.6,
+        "cloud_fullstack": 13.0,
+        "github": 0.0,
+        "engineering_depth": 2.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: DocuMind — document Q&A platform",
+          "retrieval/RAG +8: Built an end-to-end RAG product: Next.js frontend, FastAPI backend and Pinecone vector search",
+          "state/memory +5: Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+          "backend integration +3: Built an end-to-end RAG product: Next.js frontend, FastAPI backend and Pinecone vector search",
+          "data processing +1: Implemented document ingestion with chunking, embeddings and metadata filters per workspace",
+          "production/business impact +3: Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+          "LLM framework/API +1: DocuMind — document Q&A platform | Next.js, FastAPI, LangChain, Pinecone, Docker"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): Inventory Management API | Python, Django, PostgreSQL",
+          "FastAPI +6.0/6 (applied): Built an end-to-end RAG product: Next.js frontend, FastAPI backend and Pinecone vector search",
+          "PostgreSQL +4.0/4 (applied): Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+          "other backend +3.0/3 (applied): Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS"
+        ],
+        "cloud_fullstack": [
+          "Docker +4.0/4 (applied): Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+          "deployment/CI +3.0/3 (applied): Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+          "AWS/Azure +3.0/3 (applied): Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+          "React/Next.js in an end-to-end project +3: DocuMind — document Q&A platform"
+        ],
+        "github": [
+          "GitHub profile 'zz-sample-nandini-06' not found or private."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation",
+          "queue +1.0/1 (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation"
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Django",
+        "Celery",
+        "pytest",
+        "LangChain",
+        "LlamaIndex",
+        "RAG",
+        "Embeddings",
+        "Vector search",
+        "Pinecone",
+        "Qdrant",
+        "Chunking",
+        "PostgreSQL",
+        "SQL",
+        "REST API",
+        "AWS",
+        "Docker",
+        "Deployment",
+        "Next.js",
+        "Testing",
+        "Data pipeline"
+      ],
+      "project_summary": "DocuMind — document Q&A platform: retrieval/RAG, state/memory, backend integration and data processing, built with FastAPI, LangChain, Pinecone, PostgreSQL, AWS, Docker.",
+      "projects": [
+        "DocuMind — document Q&A platform",
+        "Inventory Management API"
+      ],
+      "github_url": "https://github.com/zz-sample-nandini-06",
+      "github_summary": "GitHub profile 'zz-sample-nandini-06' not found or private.",
+      "github_status": "not_found",
+      "strengths": [
+        "Cloud/deployment experience"
+      ],
+      "concerns": [
+        "No Redis evidence",
+        "No async evidence",
+        "GitHub profile 'zz-sample-nandini-06' not found or private."
+      ],
+      "evidence": [
+        "Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+        "Built an end-to-end RAG product: Next.js frontend, FastAPI backend and Pinecone vector search"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_06.pdf",
+      "email": "n***@example.com"
+    },
+    {
+      "rank": 8,
+      "candidate_name": "Divya Gupta",
+      "eligible": true,
+      "total_score": 53.6,
+      "score_breakdown": {
+        "ai_project_depth": 21.0,
+        "python_backend": 19.8,
+        "cloud_fullstack": 11.8,
+        "github": 0.0,
+        "engineering_depth": 1.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: DocuMind — document Q&A platform",
+          "retrieval/RAG +8: Built an end-to-end RAG product: Next.js frontend, FastAPI backend and Pinecone vector search",
+          "state/memory +5: Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+          "backend integration +3: Built an end-to-end RAG product: Next.js frontend, FastAPI backend and Pinecone vector search",
+          "data processing +1: Implemented document ingestion with chunking, embeddings and metadata filters per workspace",
+          "production/business impact +3: Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+          "LLM framework/API +1: DocuMind — document Q&A platform | Next.js, FastAPI, LangChain, Pinecone, Docker"
+        ],
+        "python_backend": [
+          "Python +2.8/8 (listed): Python, FastAPI, Next.js, React, TypeScript, LangChain, Pinecone, PostgreSQL, Docker, GCP",
+          "FastAPI +6.0/6 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "async +4.0/4 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "PostgreSQL +4.0/4 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "other backend +3.0/3 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day"
+        ],
+        "cloud_fullstack": [
+          "GCP +1.8/5 (listed): Python, FastAPI, Next.js, React, TypeScript, LangChain, Pinecone, PostgreSQL, Docker, GCP",
+          "Docker +4.0/4 (applied): Containerized services with Docker and set up CI/CD with GitHub Actions",
+          "deployment/CI +3.0/3 (applied): Containerized services with Docker and set up CI/CD with GitHub Actions",
+          "React/Next.js in an end-to-end project +3: DocuMind — document Q&A platform"
+        ],
+        "github": [
+          "GitHub profile 'zz-sample-fs-43' not found or private."
+        ],
+        "engineering_depth": [
+          "concurrency +1.0/1 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day"
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "Async programming",
+        "LangChain",
+        "RAG",
+        "Embeddings",
+        "Vector search",
+        "Pinecone",
+        "Chunking",
+        "PostgreSQL",
+        "MongoDB",
+        "REST API",
+        "GCP",
+        "AWS",
+        "Docker",
+        "CI/CD",
+        "Deployment",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "Data pipeline"
+      ],
+      "project_summary": "DocuMind — document Q&A platform: retrieval/RAG, state/memory, backend integration and data processing, built with FastAPI, LangChain, Pinecone, PostgreSQL, AWS, Docker.",
+      "projects": [
+        "DocuMind — document Q&A platform",
+        "E-commerce Platform"
+      ],
+      "github_url": "https://github.com/zz-sample-fs-43",
+      "github_summary": "GitHub profile 'zz-sample-fs-43' not found or private.",
+      "github_status": "not_found",
+      "strengths": [
+        "Cloud/deployment experience"
+      ],
+      "concerns": [
+        "No Redis evidence",
+        "GitHub profile 'zz-sample-fs-43' not found or private."
+      ],
+      "evidence": [
+        "Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+        "Built an end-to-end RAG product: Next.js frontend, FastAPI backend and Pinecone vector search"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_43.pdf",
+      "email": "d***@example.com"
+    },
+    {
+      "rank": 9,
+      "candidate_name": "Omkar Bose",
+      "eligible": true,
+      "total_score": 53.2,
+      "score_breakdown": {
+        "ai_project_depth": 20.5,
+        "python_backend": 22.6,
+        "cloud_fullstack": 8.1,
+        "github": 0.0,
+        "engineering_depth": 2.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Course Notes RAG Assistant",
+          "retrieval/RAG +8: Designed an ingestion pipeline that parses lecture PDFs, applies semantic chunking and stores embeddings in Qdrant",
+          "evaluation +5: Evaluated answer faithfulness with an LLM-as-judge harness over 150 labelled questions",
+          "backend integration +3: Exposed retrieval and answer endpoints through FastAPI with async request handling",
+          "data processing +1: Designed an ingestion pipeline that parses lecture PDFs, applies semantic chunking and stores embeddings in Qdrant",
+          "LLM framework/API +1: Evaluated answer faithfulness with an LLM-as-judge harness over 150 labelled questions",
+          "Second AI project 'LLM Evaluation Harness' adds 25% of its 10: +2.5"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): Course Notes RAG Assistant — Python, LlamaIndex, Qdrant, FastAPI",
+          "FastAPI +6.0/6 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "async +4.0/4 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "PostgreSQL +4.0/4 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "other backend +3.0/3 (applied): Ran model calls concurrently with asyncio and a semaphore; results stored in SQLite for regression tracking"
+        ],
+        "cloud_fullstack": [
+          "Docker +4.0/4 (applied): Containerized services with Docker and set up CI/CD with GitHub Actions",
+          "deployment/CI +3.0/3 (applied): Containerized services with Docker and set up CI/CD with GitHub Actions",
+          "AWS/Azure +1.0/3 (listed): Python, LlamaIndex, LangChain, Qdrant, FastAPI, SQL, Docker, AWS"
+        ],
+        "github": [
+          "GitHub profile 'zz-sample-omkar-07' not found or private."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): Built an evaluation pipeline comparing prompts and models on 300 test cases using DeepEval metrics",
+          "concurrency +1.0/1 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day"
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "asyncio",
+        "Async programming",
+        "LangChain",
+        "LlamaIndex",
+        "LLM",
+        "RAG",
+        "Embeddings",
+        "Qdrant",
+        "Chunking",
+        "LLM evaluation",
+        "PostgreSQL",
+        "SQL",
+        "REST API",
+        "AWS",
+        "Docker",
+        "CI/CD",
+        "Testing",
+        "Concurrency",
+        "Data pipeline"
+      ],
+      "project_summary": "Course Notes RAG Assistant: retrieval/RAG, evaluation, backend integration and data processing, built with Python, FastAPI, LlamaIndex, Qdrant.",
+      "projects": [
+        "Course Notes RAG Assistant",
+        "LLM Evaluation Harness"
+      ],
+      "github_url": "https://github.com/zz-sample-omkar-07",
+      "github_summary": "GitHub profile 'zz-sample-omkar-07' not found or private.",
+      "github_status": "not_found",
+      "strengths": [
+        "Solid Python backend evidence in real work"
+      ],
+      "concerns": [
+        "No Redis evidence",
+        "GitHub profile 'zz-sample-omkar-07' not found or private."
+      ],
+      "evidence": [
+        "Designed an ingestion pipeline that parses lecture PDFs, applies semantic chunking and stores embeddings in Qdrant",
+        "Exposed retrieval and answer endpoints through FastAPI with async request handling"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_07.pdf",
+      "email": "o***@example.com"
+    },
+    {
+      "rank": 10,
+      "candidate_name": "Kabir Singh",
+      "eligible": true,
+      "total_score": 52.6,
+      "score_breakdown": {
+        "ai_project_depth": 21.0,
+        "python_backend": 18.6,
+        "cloud_fullstack": 13.0,
+        "github": 0.0,
+        "engineering_depth": 0.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: DocuMind — document Q&A platform",
+          "retrieval/RAG +8: Built an end-to-end RAG product: Next.js frontend, FastAPI backend and Pinecone vector search",
+          "state/memory +5: Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+          "backend integration +3: Built an end-to-end RAG product: Next.js frontend, FastAPI backend and Pinecone vector search",
+          "data processing +1: Implemented document ingestion with chunking, embeddings and metadata filters per workspace",
+          "production/business impact +3: Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+          "LLM framework/API +1: DocuMind — document Q&A platform | Next.js, FastAPI, LangChain, Pinecone, Docker"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): House Price Prediction | Python, scikit-learn, pandas",
+          "FastAPI +6.0/6 (applied): Built an end-to-end RAG product: Next.js frontend, FastAPI backend and Pinecone vector search",
+          "PostgreSQL +4.0/4 (applied): Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+          "other backend +3.0/3 (applied): Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS"
+        ],
+        "cloud_fullstack": [
+          "Docker +4.0/4 (applied): Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+          "deployment/CI +3.0/3 (applied): Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+          "AWS/Azure +3.0/3 (applied): Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+          "React/Next.js in an end-to-end project +3: DocuMind — document Q&A platform"
+        ],
+        "github": [
+          "GitHub profile 'zz-sample-kabir-08' not found or private."
+        ],
+        "engineering_depth": [],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "pandas",
+        "scikit-learn",
+        "LangChain",
+        "LlamaIndex",
+        "RAG",
+        "Embeddings",
+        "Vector search",
+        "Pinecone",
+        "Qdrant",
+        "Chunking",
+        "PostgreSQL",
+        "SQL",
+        "REST API",
+        "AWS",
+        "Docker",
+        "Deployment",
+        "Next.js",
+        "Data pipeline"
+      ],
+      "project_summary": "DocuMind — document Q&A platform: retrieval/RAG, state/memory, backend integration and data processing, built with FastAPI, LangChain, Pinecone, PostgreSQL, AWS, Docker.",
+      "projects": [
+        "DocuMind — document Q&A platform",
+        "House Price Prediction"
+      ],
+      "github_url": "https://github.com/zz-sample-kabir-08",
+      "github_summary": "GitHub profile 'zz-sample-kabir-08' not found or private.",
+      "github_status": "not_found",
+      "strengths": [
+        "Cloud/deployment experience"
+      ],
+      "concerns": [
+        "No Redis evidence",
+        "No async evidence",
+        "GitHub profile 'zz-sample-kabir-08' not found or private."
+      ],
+      "evidence": [
+        "Streamed answers over websockets and stored chat history in PostgreSQL; deployed with Docker on AWS",
+        "Built an end-to-end RAG product: Next.js frontend, FastAPI backend and Pinecone vector search"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_08.pdf",
+      "email": "k***@example.com"
+    },
+    {
+      "rank": 11,
+      "candidate_name": "Aditya Joshi",
+      "eligible": true,
+      "total_score": 51.7,
+      "score_breakdown": {
+        "ai_project_depth": 18.0,
+        "python_backend": 22.6,
+        "cloud_fullstack": 8.1,
+        "github": 0.0,
+        "engineering_depth": 3.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Course Notes RAG Assistant",
+          "retrieval/RAG +8: Designed an ingestion pipeline that parses lecture PDFs, applies semantic chunking and stores embeddings in Qdrant",
+          "evaluation +5: Evaluated answer faithfulness with an LLM-as-judge harness over 150 labelled questions",
+          "backend integration +3: Exposed retrieval and answer endpoints through FastAPI with async request handling",
+          "data processing +1: Designed an ingestion pipeline that parses lecture PDFs, applies semantic chunking and stores embeddings in Qdrant",
+          "LLM framework/API +1: Evaluated answer faithfulness with an LLM-as-judge harness over 150 labelled questions"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): Course Notes RAG Assistant — Python, LlamaIndex, Qdrant, FastAPI",
+          "FastAPI +6.0/6 (applied): Exposed retrieval and answer endpoints through FastAPI with async request handling",
+          "async +4.0/4 (applied): Exposed retrieval and answer endpoints through FastAPI with async request handling",
+          "PostgreSQL +4.0/4 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "other backend +3.0/3 (applied): Exposed retrieval and answer endpoints through FastAPI with async request handling"
+        ],
+        "cloud_fullstack": [
+          "Docker +4.0/4 (applied): Containerized services with Docker and set up CI/CD with GitHub Actions",
+          "deployment/CI +3.0/3 (applied): Containerized services with Docker and set up CI/CD with GitHub Actions",
+          "AWS/Azure +1.0/3 (listed): Python, LlamaIndex, LangChain, Qdrant, FastAPI, SQL, Docker, AWS"
+        ],
+        "github": [
+          "GitHub profile 'zz-sample-aditya-05' not found or private."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation",
+          "queue +1.0/1 (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation",
+          "concurrency +1.0/1 (applied): Exposed retrieval and answer endpoints through FastAPI with async request handling"
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Django",
+        "SQLAlchemy",
+        "Celery",
+        "pytest",
+        "Async programming",
+        "LangChain",
+        "LlamaIndex",
+        "LLM",
+        "RAG",
+        "Embeddings",
+        "Qdrant",
+        "Chunking",
+        "LLM evaluation",
+        "PostgreSQL",
+        "SQL",
+        "REST API",
+        "AWS",
+        "Docker",
+        "CI/CD",
+        "Testing",
+        "Data pipeline"
+      ],
+      "project_summary": "Course Notes RAG Assistant: retrieval/RAG, evaluation, backend integration and data processing, built with Python, FastAPI, LlamaIndex, Qdrant.",
+      "projects": [
+        "Course Notes RAG Assistant",
+        "Inventory Management API"
+      ],
+      "github_url": "https://github.com/zz-sample-aditya-05",
+      "github_summary": "GitHub profile 'zz-sample-aditya-05' not found or private.",
+      "github_status": "not_found",
+      "strengths": [
+        "Solid Python backend evidence in real work"
+      ],
+      "concerns": [
+        "No Redis evidence",
+        "GitHub profile 'zz-sample-aditya-05' not found or private."
+      ],
+      "evidence": [
+        "Designed an ingestion pipeline that parses lecture PDFs, applies semantic chunking and stores embeddings in Qdrant",
+        "Exposed retrieval and answer endpoints through FastAPI with async request handling"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_05.pdf",
+      "email": "a***@example.com"
+    },
+    {
+      "rank": 12,
+      "candidate_name": "Nisha Varghese",
+      "eligible": true,
+      "total_score": 42.6,
+      "score_breakdown": {
+        "ai_project_depth": 26.0,
+        "python_backend": 14.2,
+        "cloud_fullstack": 1.4,
+        "github": 0.0,
+        "engineering_depth": 1.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Travel Planner Agent",
+          "agent orchestration +7: Built a planning agent with tool calling for flight and hotel search APIs and stateful checkpoints",
+          "tool calling +5: Built a planning agent with tool calling for flight and hotel search APIs and stateful checkpoints",
+          "state/memory +5: Built a planning agent with tool calling for flight and hotel search APIs and stateful checkpoints",
+          "evaluation +5: Added Redis caching of tool results and an evaluation set of 80 itineraries",
+          "backend integration +3: Added Redis caching of tool results and an evaluation set of 80 itineraries",
+          "LLM framework/API +1: Travel Planner Agent | Python, LangGraph, FastAPI"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): Travel Planner Agent | Python, LangGraph, FastAPI",
+          "FastAPI +4.2/6 (stack): Travel Planner Agent | Python, LangGraph, FastAPI",
+          "PostgreSQL +1.4/4 (listed): Python, LangGraph, FastAPI, Redis, PostgreSQL, Docker",
+          "Redis +3.0/3 (applied): Added Redis caching of tool results and an evaluation set of 80 itineraries"
+        ],
+        "cloud_fullstack": [
+          "Docker +1.4/4 (listed): Python, LangGraph, FastAPI, Redis, PostgreSQL, Docker"
+        ],
+        "github": [
+          "GitHub profile 'zz-sample-nisha-docx' not found or private."
+        ],
+        "engineering_depth": [
+          "caching +1.0/1 (applied): Added Redis caching of tool results and an evaluation set of 80 itineraries"
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "AI agents",
+        "Tool calling",
+        "LLM evaluation",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "Caching"
+      ],
+      "project_summary": "Travel Planner Agent: agent orchestration, tool calling, state/memory, evaluation and backend integration, built with Python, FastAPI, LangGraph, Redis.",
+      "projects": [
+        "Travel Planner Agent"
+      ],
+      "github_url": "https://github.com/zz-sample-nisha-docx",
+      "github_summary": "GitHub profile 'zz-sample-nisha-docx' not found or private.",
+      "github_status": "not_found",
+      "strengths": [],
+      "concerns": [
+        "No async evidence",
+        "No cloud platform evidence",
+        "GitHub profile 'zz-sample-nisha-docx' not found or private."
+      ],
+      "evidence": [
+        "Built a planning agent with tool calling for flight and hotel search APIs and stateful checkpoints",
+        "Added Redis caching of tool results and an evaluation set of 80 itineraries"
+      ],
+      "llm_status": "skipped",
+      "file": "nisha_varghese.docx",
+      "email": "n***@example.com"
+    },
+    {
+      "rank": 13,
+      "candidate_name": "Aditya Singh",
+      "eligible": true,
+      "total_score": 39.6,
+      "score_breakdown": {
+        "ai_project_depth": 24.0,
+        "python_backend": 6.6,
+        "cloud_fullstack": 8.0,
+        "github": 0.0,
+        "engineering_depth": 1.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Research Agent with Google ADK",
+          "agent orchestration +7: Built a research agent with Google ADK that plans sub-queries and uses tool calling for web search and citation lookup",
+          "tool calling +5: Built a research agent with Google ADK that plans sub-queries and uses tool calling for web search and citation lookup",
+          "state/memory +5: Kept conversation memory and session state in Firestore so long research tasks can resume",
+          "backend integration +3: Kept conversation memory and session state in Firestore so long research tasks can resume",
+          "production/business impact +3: Wrote pytest unit tests for each tool and deployed the agent on GCP Cloud Run",
+          "LLM framework/API +1: Built a research agent with Google ADK that plans sub-queries and uses tool calling for web search and citation lookup"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): Research Agent with Google ADK | Python, Gemini, Firestore",
+          "other backend +1.0/3 (listed): Python, pandas, LangChain, OpenAI API, scikit-learn, SQL"
+        ],
+        "cloud_fullstack": [
+          "GCP +5.0/5 (applied): Wrote pytest unit tests for each tool and deployed the agent on GCP Cloud Run",
+          "deployment/CI +3.0/3 (applied): Wrote pytest unit tests for each tool and deployed the agent on GCP Cloud Run"
+        ],
+        "github": [
+          "GitHub profile 'zz-sample-aditya-09' not found or private."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): Wrote pytest unit tests for each tool and deployed the agent on GCP Cloud Run"
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "pytest",
+        "Google ADK",
+        "AI agents",
+        "Tool calling",
+        "LangChain",
+        "OpenAI API",
+        "Gemini",
+        "SQL",
+        "NoSQL stores",
+        "GCP",
+        "Deployment",
+        "Testing"
+      ],
+      "project_summary": "Research Agent with Google ADK: agent orchestration, tool calling, state/memory and backend integration, built with Python, pytest, Google ADK, Gemini, NoSQL stores, GCP.",
+      "projects": [
+        "Research Agent with Google ADK",
+        "House Price Prediction"
+      ],
+      "github_url": "https://github.com/zz-sample-aditya-09",
+      "github_summary": "GitHub profile 'zz-sample-aditya-09' not found or private.",
+      "github_status": "not_found",
+      "strengths": [],
+      "concerns": [
+        "No FastAPI evidence",
+        "No PostgreSQL evidence",
+        "No Redis evidence",
+        "No async evidence",
+        "No Docker evidence",
+        "GitHub profile 'zz-sample-aditya-09' not found or private."
+      ],
+      "evidence": [
+        "Wrote pytest unit tests for each tool and deployed the agent on GCP Cloud Run",
+        "Built a research agent with Google ADK that plans sub-queries and uses tool calling for web search and citation lookup"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_09.pdf",
+      "email": "a***@example.com"
+    },
+    {
+      "rank": 14,
+      "candidate_name": "Bhavna Saxena",
+      "eligible": true,
+      "total_score": 36.6,
+      "score_breakdown": {
+        "ai_project_depth": 23.0,
+        "python_backend": 12.6,
+        "cloud_fullstack": 0.0,
+        "github": 0.0,
+        "engineering_depth": 1.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Text-to-SQL Agent",
+          "agent orchestration +7: Built an SQL agent with tool calling that answers analytics questions over a PostgreSQL warehouse",
+          "tool calling +5: Built an SQL agent with tool calling that answers analytics questions over a PostgreSQL warehouse",
+          "evaluation +5: Logged every agent step for observability and replayed failures in an evaluation set",
+          "structured output/guardrails +2: Added guardrails that validate generated SQL against the schema and block write queries",
+          "backend integration +3: Built an SQL agent with tool calling that answers analytics questions over a PostgreSQL warehouse",
+          "LLM framework/API +1: Text-to-SQL Agent | Python, LangChain, PostgreSQL"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): Text-to-SQL Agent | Python, LangChain, PostgreSQL",
+          "PostgreSQL +4.0/4 (applied): Built an SQL agent with tool calling that answers analytics questions over a PostgreSQL warehouse",
+          "other backend +3.0/3 (applied): Built an SQL agent with tool calling that answers analytics questions over a PostgreSQL warehouse"
+        ],
+        "cloud_fullstack": [],
+        "github": [
+          "GitHub profile 'zz-sample-bhavna-10' not found or private."
+        ],
+        "engineering_depth": [
+          "observability +1.0/1 (applied): Logged every agent step for observability and replayed failures in an evaluation set"
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "pandas",
+        "PyTorch",
+        "scikit-learn",
+        "AI agents",
+        "Tool calling",
+        "LangChain",
+        "OpenAI API",
+        "LLM evaluation",
+        "Structured output",
+        "PostgreSQL",
+        "SQL",
+        "Observability"
+      ],
+      "project_summary": "Text-to-SQL Agent: agent orchestration, tool calling, evaluation, structured output/guardrails and backend integration, built with Python, LangChain, PostgreSQL.",
+      "projects": [
+        "Text-to-SQL Agent",
+        "Plant Disease Classifier"
+      ],
+      "github_url": "https://github.com/zz-sample-bhavna-10",
+      "github_summary": "GitHub profile 'zz-sample-bhavna-10' not found or private.",
+      "github_status": "not_found",
+      "strengths": [],
+      "concerns": [
+        "No FastAPI evidence",
+        "No Redis evidence",
+        "No async evidence",
+        "No Docker evidence",
+        "No cloud platform evidence",
+        "GitHub profile 'zz-sample-bhavna-10' not found or private."
+      ],
+      "evidence": [
+        "Built an SQL agent with tool calling that answers analytics questions over a PostgreSQL warehouse",
+        "Added guardrails that validate generated SQL against the schema and block write queries"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_10.pdf",
+      "email": "b***@example.com"
+    },
+    {
+      "rank": 15,
+      "candidate_name": "Leela Thomas",
+      "eligible": true,
+      "total_score": 33.5,
+      "score_breakdown": {
+        "ai_project_depth": 13.0,
+        "python_backend": 18.1,
+        "cloud_fullstack": 0.0,
+        "github": 0.0,
+        "engineering_depth": 2.4,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "No AI project entry found; scored from resume-wide evidence",
+          "retrieval/RAG +8.0/8 (applied): Python developer who shipped a retrieval-augmented support bot for a college helpdesk.",
+          "backend integration +3.0/3 (applied): I designed the ingestion pipeline with chunking and embeddings in ChromaDB, and built FastAPI endpoints with",
+          "data processing +1.0/1 (applied): I designed the ingestion pipeline with chunking and embeddings in ChromaDB, and built FastAPI endpoints with",
+          "LLM framework/API +1.0/1 (applied): I wrote pytest tests and added retries and timeouts around LLM calls."
+        ],
+        "python_backend": [
+          "Python +8.0/8 (applied): Python developer who shipped a retrieval-augmented support bot for a college helpdesk.",
+          "FastAPI +6.0/6 (applied): I designed the ingestion pipeline with chunking and embeddings in ChromaDB, and built FastAPI endpoints with",
+          "Redis +1.0/3 (listed): Redis caching.",
+          "other backend +3.0/3 (applied): I designed the ingestion pipeline with chunking and embeddings in ChromaDB, and built FastAPI endpoints with"
+        ],
+        "cloud_fullstack": [],
+        "github": [
+          "No GitHub profile on resume (0 points, not a rejection)."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): I wrote pytest tests and added retries and timeouts around LLM calls.",
+          "caching +0.3/1 (listed): Redis caching.",
+          "resilience +1.0/1 (applied): I wrote pytest tests and added retries and timeouts around LLM calls."
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "pytest",
+        "LLM",
+        "RAG",
+        "Embeddings",
+        "ChromaDB",
+        "Chunking",
+        "Redis",
+        "REST API",
+        "Testing",
+        "Caching",
+        "Failure handling",
+        "Data pipeline"
+      ],
+      "project_summary": "No structured AI project entry; AI exposure comes from skills/summary lines.",
+      "projects": [],
+      "github_url": null,
+      "github_summary": "No GitHub profile on resume (0 points, not a rejection).",
+      "github_status": "no_profile",
+      "strengths": [],
+      "concerns": [
+        "No PostgreSQL evidence",
+        "No async evidence",
+        "No Docker evidence",
+        "No cloud platform evidence"
+      ],
+      "evidence": [
+        "Python developer who shipped a retrieval-augmented support bot for a college helpdesk.",
+        "I designed the ingestion pipeline with chunking and embeddings in ChromaDB, and built FastAPI endpoints with"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_41.pdf",
+      "email": "l***@example.com"
+    },
+    {
+      "rank": 16,
+      "candidate_name": "Ishita Verma",
+      "eligible": true,
+      "total_score": 30.0,
+      "score_breakdown": {
+        "ai_project_depth": 10.2,
+        "python_backend": 22.6,
+        "cloud_fullstack": 12.0,
+        "github": 0.0,
+        "engineering_depth": 4.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "No AI project entry found; scored from resume-wide evidence",
+          "retrieval/RAG +2.8/8 (listed): Python, Django, PostgreSQL, Docker, LangChain, LlamaIndex, Pinecone",
+          "backend integration +3.0/3 (applied): Developed REST APIs with Django REST Framework for stock tracking across 12 warehouses",
+          "data processing +1.0/1 (applied): Built Airflow DAGs that ingest sales CSVs, clean them with pandas and load them into BigQuery",
+          "production/business impact +3.0/3 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "LLM framework/API +0.3/1 (listed): Python, Django, PostgreSQL, Docker, LangChain, LlamaIndex, Pinecone"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): Inventory Management API | Python, Django, PostgreSQL",
+          "FastAPI +6.0/6 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "async +4.0/4 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "PostgreSQL +4.0/4 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "other backend +3.0/3 (applied): Developed REST APIs with Django REST Framework for stock tracking across 12 warehouses"
+        ],
+        "cloud_fullstack": [
+          "GCP +5.0/5 (applied): Built Airflow DAGs that ingest sales CSVs, clean them with pandas and load them into BigQuery",
+          "Docker +4.0/4 (applied): Containerized services with Docker and set up CI/CD with GitHub Actions",
+          "deployment/CI +3.0/3 (applied): Containerized services with Docker and set up CI/CD with GitHub Actions"
+        ],
+        "github": [
+          "No GitHub profile on resume (0 points, not a rejection)."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation",
+          "queue +1.0/1 (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation",
+          "observability +1.0/1 (applied): Added data quality checks and monitoring alerts for failed loads",
+          "concurrency +1.0/1 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day"
+        ],
+        "penalties": [
+          "Total capped at 30: no meaningful AI project (only thin, tutorial or skills-list AI evidence)"
+        ]
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Django",
+        "pandas",
+        "SQLAlchemy",
+        "Celery",
+        "pytest",
+        "Async programming",
+        "LangChain",
+        "LlamaIndex",
+        "Pinecone",
+        "PostgreSQL",
+        "REST API",
+        "GCP",
+        "Docker",
+        "CI/CD",
+        "Testing",
+        "Observability",
+        "Data pipeline"
+      ],
+      "project_summary": "No structured AI project entry; AI exposure comes from skills/summary lines.",
+      "projects": [
+        "Inventory Management API",
+        "Sales ETL Pipeline"
+      ],
+      "github_url": null,
+      "github_summary": "No GitHub profile on resume (0 points, not a rejection).",
+      "github_status": "no_profile",
+      "strengths": [
+        "Solid Python backend evidence in real work",
+        "Cloud/deployment experience",
+        "Shows engineering depth (testing, caching, resilience)"
+      ],
+      "concerns": [
+        "No Redis evidence",
+        "AI frameworks only listed in skills, no usage shown"
+      ],
+      "evidence": [
+        "Python, Django, PostgreSQL, Docker, LangChain, LlamaIndex, Pinecone",
+        "Python, Django, PostgreSQL, Docker, LangChain, LlamaIndex, Pinecone"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_20.pdf",
+      "email": "i***@example.com"
+    },
+    {
+      "rank": 17,
+      "candidate_name": "Kavya Khan",
+      "eligible": true,
+      "total_score": 30.0,
+      "score_breakdown": {
+        "ai_project_depth": 10.2,
+        "python_backend": 22.6,
+        "cloud_fullstack": 12.0,
+        "github": 0.0,
+        "engineering_depth": 2.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "No AI project entry found; scored from resume-wide evidence",
+          "retrieval/RAG +2.8/8 (listed): Python, Django, PostgreSQL, Docker, LangChain, LlamaIndex, Pinecone",
+          "backend integration +3.0/3 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "data processing +1.0/1 (applied): Built Airflow DAGs that ingest sales CSVs, clean them with pandas and load them into BigQuery",
+          "production/business impact +3.0/3 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "LLM framework/API +0.3/1 (listed): Python, Django, PostgreSQL, Docker, LangChain, LlamaIndex, Pinecone"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): Sales ETL Pipeline | Python, Airflow, BigQuery",
+          "FastAPI +6.0/6 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "async +4.0/4 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "PostgreSQL +4.0/4 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "other backend +3.0/3 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day"
+        ],
+        "cloud_fullstack": [
+          "GCP +5.0/5 (applied): Built Airflow DAGs that ingest sales CSVs, clean them with pandas and load them into BigQuery",
+          "Docker +4.0/4 (applied): Containerized services with Docker and set up CI/CD with GitHub Actions",
+          "deployment/CI +3.0/3 (applied): Containerized services with Docker and set up CI/CD with GitHub Actions"
+        ],
+        "github": [
+          "GitHub profile 'zz-sample-kavya-22' not found or private."
+        ],
+        "engineering_depth": [
+          "observability +1.0/1 (applied): Added data quality checks and monitoring alerts for failed loads",
+          "concurrency +1.0/1 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day"
+        ],
+        "penalties": [
+          "Total capped at 30: no meaningful AI project (only thin, tutorial or skills-list AI evidence)"
+        ]
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Django",
+        "pandas",
+        "scikit-learn",
+        "SQLAlchemy",
+        "Async programming",
+        "LangChain",
+        "LlamaIndex",
+        "Pinecone",
+        "PostgreSQL",
+        "GCP",
+        "Docker",
+        "CI/CD",
+        "Observability",
+        "Data pipeline"
+      ],
+      "project_summary": "No structured AI project entry; AI exposure comes from skills/summary lines.",
+      "projects": [
+        "Sales ETL Pipeline",
+        "House Price Prediction"
+      ],
+      "github_url": "https://github.com/zz-sample-kavya-22",
+      "github_summary": "GitHub profile 'zz-sample-kavya-22' not found or private.",
+      "github_status": "not_found",
+      "strengths": [
+        "Solid Python backend evidence in real work",
+        "Cloud/deployment experience"
+      ],
+      "concerns": [
+        "No Redis evidence",
+        "AI frameworks only listed in skills, no usage shown",
+        "GitHub profile 'zz-sample-kavya-22' not found or private."
+      ],
+      "evidence": [
+        "Python, Django, PostgreSQL, Docker, LangChain, LlamaIndex, Pinecone",
+        "Python, Django, PostgreSQL, Docker, LangChain, LlamaIndex, Pinecone"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_22.pdf",
+      "email": "k***@example.com"
+    },
+    {
+      "rank": 18,
+      "candidate_name": "Tarun Shetty",
+      "eligible": true,
+      "total_score": 30.0,
+      "score_breakdown": {
+        "ai_project_depth": 9.2,
+        "python_backend": 22.6,
+        "cloud_fullstack": 7.0,
+        "github": 0.0,
+        "engineering_depth": 3.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "No AI project entry found; scored from resume-wide evidence",
+          "retrieval/RAG +2.8/8 (listed): Python, Django, PostgreSQL, Docker, LangChain, LlamaIndex, Pinecone",
+          "backend integration +3.0/3 (applied): Developed REST APIs with Django REST Framework for stock tracking across 12 warehouses",
+          "production/business impact +3.0/3 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "LLM framework/API +0.3/1 (listed): Python, Django, PostgreSQL, Docker, LangChain, LlamaIndex, Pinecone"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): Inventory Management API | Python, Django, PostgreSQL",
+          "FastAPI +6.0/6 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "async +4.0/4 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "PostgreSQL +4.0/4 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+          "other backend +3.0/3 (applied): Developed REST APIs with Django REST Framework for stock tracking across 12 warehouses"
+        ],
+        "cloud_fullstack": [
+          "Docker +4.0/4 (applied): Containerized services with Docker and set up CI/CD with GitHub Actions",
+          "deployment/CI +3.0/3 (applied): Containerized services with Docker and set up CI/CD with GitHub Actions"
+        ],
+        "github": [
+          "GitHub profile 'zz-sample-tarun-21' not found or private."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation",
+          "queue +1.0/1 (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation",
+          "concurrency +1.0/1 (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day"
+        ],
+        "penalties": [
+          "Total capped at 30: no meaningful AI project (only thin, tutorial or skills-list AI evidence)"
+        ]
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Django",
+        "SQLAlchemy",
+        "Celery",
+        "pytest",
+        "Async programming",
+        "LangChain",
+        "LlamaIndex",
+        "Pinecone",
+        "PostgreSQL",
+        "REST API",
+        "Docker",
+        "CI/CD",
+        "Testing"
+      ],
+      "project_summary": "No structured AI project entry; AI exposure comes from skills/summary lines.",
+      "projects": [
+        "Inventory Management API"
+      ],
+      "github_url": "https://github.com/zz-sample-tarun-21",
+      "github_summary": "GitHub profile 'zz-sample-tarun-21' not found or private.",
+      "github_status": "not_found",
+      "strengths": [
+        "Solid Python backend evidence in real work"
+      ],
+      "concerns": [
+        "No Redis evidence",
+        "No cloud platform evidence",
+        "AI frameworks only listed in skills, no usage shown",
+        "GitHub profile 'zz-sample-tarun-21' not found or private."
+      ],
+      "evidence": [
+        "Python, Django, PostgreSQL, Docker, LangChain, LlamaIndex, Pinecone",
+        "Python, Django, PostgreSQL, Docker, LangChain, LlamaIndex, Pinecone"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_21.pdf",
+      "email": "t***@example.com"
+    },
+    {
+      "rank": 19,
+      "candidate_name": "Pranav Bose",
+      "eligible": true,
+      "total_score": 29.8,
+      "score_breakdown": {
+        "ai_project_depth": 16.0,
+        "python_backend": 10.8,
+        "cloud_fullstack": 0.0,
+        "github": 0.0,
+        "engineering_depth": 3.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: MCP Tool Server for Code Search",
+          "agent orchestration +7: Implemented a Model Context Protocol server that exposes repository search and file tools to LLM agents",
+          "tool calling +5: Implemented a Model Context Protocol server that exposes repository search and file tools to LLM agents",
+          "backend integration +3: MCP Tool Server for Code Search | Python, FastAPI",
+          "LLM framework/API +1: Implemented a Model Context Protocol server that exposes repository search and file tools to LLM agents"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): MCP Tool Server for Code Search | Python, FastAPI",
+          "FastAPI +4.2/6 (stack): MCP Tool Server for Code Search | Python, FastAPI",
+          "other backend +1.0/3 (listed): Python, pandas, LangChain, OpenAI API, scikit-learn, SQL"
+        ],
+        "cloud_fullstack": [],
+        "github": [
+          "No GitHub profile on resume (0 points, not a rejection)."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): Added rate limiting, caching of repository indexes and integration tests with pytest",
+          "caching +1.0/1 (applied): Added rate limiting, caching of repository indexes and integration tests with pytest",
+          "resilience +1.0/1 (applied): Added rate limiting, caching of repository indexes and integration tests with pytest"
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "pandas",
+        "scikit-learn",
+        "pytest",
+        "AI agents",
+        "MCP",
+        "LangChain",
+        "OpenAI API",
+        "LLM",
+        "SQL",
+        "Testing",
+        "Caching",
+        "Failure handling"
+      ],
+      "project_summary": "MCP Tool Server for Code Search: agent orchestration, tool calling and backend integration, built with Python, FastAPI, pytest, MCP.",
+      "projects": [
+        "MCP Tool Server for Code Search",
+        "House Price Prediction"
+      ],
+      "github_url": null,
+      "github_summary": "No GitHub profile on resume (0 points, not a rejection).",
+      "github_status": "no_profile",
+      "strengths": [],
+      "concerns": [
+        "No PostgreSQL evidence",
+        "No Redis evidence",
+        "No async evidence",
+        "No Docker evidence",
+        "No cloud platform evidence"
+      ],
+      "evidence": [
+        "Added rate limiting, caching of repository indexes and integration tests with pytest",
+        "Implemented a Model Context Protocol server that exposes repository search and file tools to LLM agents"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_11.pdf",
+      "email": "p***@example.com"
+    },
+    {
+      "rank": 20,
+      "candidate_name": "Kavya Pillai",
+      "eligible": true,
+      "total_score": 28.4,
+      "score_breakdown": {
+        "ai_project_depth": 10.0,
+        "python_backend": 15.4,
+        "cloud_fullstack": 0.0,
+        "github": 0.0,
+        "engineering_depth": 3.0,
+        "penalties": 0.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: LLM Evaluation Harness",
+          "evaluation +5: Built an evaluation pipeline comparing prompts and models on 300 test cases using DeepEval metrics",
+          "backend integration +3: Ran model calls concurrently with asyncio and a semaphore; results stored in SQLite for regression tracking",
+          "data processing +1: Built an evaluation pipeline comparing prompts and models on 300 test cases using DeepEval metrics",
+          "LLM framework/API +1: LLM Evaluation Harness | Python, DeepEval, asyncio"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): LLM Evaluation Harness | Python, DeepEval, asyncio",
+          "async +4.0/4 (applied): Ran model calls concurrently with asyncio and a semaphore; results stored in SQLite for regression tracking",
+          "PostgreSQL +2.8/4 (stack): Inventory Management API | Python, Django, PostgreSQL",
+          "other backend +3.0/3 (applied): Ran model calls concurrently with asyncio and a semaphore; results stored in SQLite for regression tracking"
+        ],
+        "cloud_fullstack": [],
+        "github": [
+          "No GitHub profile on resume (0 points, not a rejection)."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): Built an evaluation pipeline comparing prompts and models on 300 test cases using DeepEval metrics",
+          "queue +1.0/1 (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation",
+          "concurrency +1.0/1 (applied): Ran model calls concurrently with asyncio and a semaphore; results stored in SQLite for regression tracking"
+        ],
+        "penalties": []
+      },
+      "matched_skills": [
+        "Python",
+        "Django",
+        "pandas",
+        "scikit-learn",
+        "Celery",
+        "pytest",
+        "asyncio",
+        "LangChain",
+        "OpenAI API",
+        "LLM",
+        "LLM evaluation",
+        "PostgreSQL",
+        "SQL",
+        "REST API",
+        "Testing",
+        "Concurrency",
+        "Data pipeline"
+      ],
+      "project_summary": "LLM Evaluation Harness: evaluation, backend integration and data processing, built with Python, asyncio.",
+      "projects": [
+        "LLM Evaluation Harness",
+        "Inventory Management API"
+      ],
+      "github_url": null,
+      "github_summary": "No GitHub profile on resume (0 points, not a rejection).",
+      "github_status": "no_profile",
+      "strengths": [],
+      "concerns": [
+        "No FastAPI evidence",
+        "No Redis evidence",
+        "No Docker evidence",
+        "No cloud platform evidence"
+      ],
+      "evidence": [
+        "Built an evaluation pipeline comparing prompts and models on 300 test cases using DeepEval metrics",
+        "Ran model calls concurrently with asyncio and a semaphore; results stored in SQLite for regression tracking"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_12.pdf",
+      "email": "k***@example.com"
+    },
+    {
+      "rank": 21,
+      "candidate_name": "Ananya Verma",
+      "eligible": true,
+      "total_score": 9.4,
+      "score_breakdown": {
+        "ai_project_depth": 1.0,
+        "python_backend": 11.4,
+        "cloud_fullstack": 0.0,
+        "github": 0.0,
+        "engineering_depth": 2.0,
+        "penalties": -5.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Chat with PDF (LangChain)",
+          "LLM framework/API +1: Followed a YouTube tutorial to build a chat with PDF app using LangChain"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): Inventory Management API | Python, Django, PostgreSQL",
+          "PostgreSQL +2.8/4 (stack): Inventory Management API | Python, Django, PostgreSQL",
+          "other backend +3.0/3 (applied): Developed REST APIs with Django REST Framework for stock tracking across 12 warehouses"
+        ],
+        "cloud_fullstack": [],
+        "github": [
+          "GitHub profile 'zz-sample-ananya-19' not found or private."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation",
+          "queue +1.0/1 (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation"
+        ],
+        "penalties": [
+          "-5: tutorial-style or no implementation detail (Chat with PDF (LangChain))"
+        ]
+      },
+      "matched_skills": [
+        "Python",
+        "Django",
+        "pandas",
+        "scikit-learn",
+        "Celery",
+        "pytest",
+        "LangChain",
+        "OpenAI API",
+        "PostgreSQL",
+        "SQL",
+        "REST API",
+        "Testing"
+      ],
+      "project_summary": "Chat with PDF (LangChain): LLM API calls, built with LangChain.",
+      "projects": [
+        "Chat with PDF (LangChain)",
+        "Inventory Management API"
+      ],
+      "github_url": "https://github.com/zz-sample-ananya-19",
+      "github_summary": "GitHub profile 'zz-sample-ananya-19' not found or private.",
+      "github_status": "not_found",
+      "strengths": [],
+      "concerns": [
+        "No FastAPI evidence",
+        "No Redis evidence",
+        "No async evidence",
+        "No Docker evidence",
+        "No cloud platform evidence",
+        "Tutorial-style AI project without implementation detail"
+      ],
+      "evidence": [
+        "Followed a YouTube tutorial to build a chat with PDF app using LangChain"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_19.pdf",
+      "email": "a***@example.com"
+    },
+    {
+      "rank": 22,
+      "candidate_name": "Harsh Pillai",
+      "eligible": true,
+      "total_score": 7.8,
+      "score_breakdown": {
+        "ai_project_depth": 4.0,
+        "python_backend": 13.8,
+        "cloud_fullstack": 0.0,
+        "github": 0.0,
+        "engineering_depth": 2.0,
+        "penalties": -12.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Resume Rewriter using GPT-4",
+          "backend integration +3: Flask app that calls the OpenAI API to rewrite resume bullet points in a more professional tone",
+          "LLM framework/API +1: Flask app that calls the OpenAI API to rewrite resume bullet points in a more professional tone"
+        ],
+        "python_backend": [
+          "Python +8.0/8 (applied): Resume Rewriter using GPT-4 | Python, Flask",
+          "PostgreSQL +2.8/4 (stack): Inventory Management API | Python, Django, PostgreSQL",
+          "other backend +3.0/3 (applied): Resume Rewriter using GPT-4 | Python, Flask"
+        ],
+        "cloud_fullstack": [],
+        "github": [
+          "GitHub profile 'zz-sample-harsh-16' not found or private."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation",
+          "queue +1.0/1 (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation"
+        ],
+        "penalties": [
+          "-12: every AI project is a thin LLM/API wrapper (Resume Rewriter using GPT-4)"
+        ]
+      },
+      "matched_skills": [
+        "Python",
+        "Django",
+        "Flask",
+        "Celery",
+        "Streamlit",
+        "pytest",
+        "OpenAI API",
+        "LLM",
+        "PostgreSQL",
+        "SQL",
+        "REST API",
+        "Testing"
+      ],
+      "project_summary": "Resume Rewriter using GPT-4: backend integration, built with Python, Flask, OpenAI API.",
+      "projects": [
+        "Resume Rewriter using GPT-4",
+        "Inventory Management API"
+      ],
+      "github_url": "https://github.com/zz-sample-harsh-16",
+      "github_summary": "GitHub profile 'zz-sample-harsh-16' not found or private.",
+      "github_status": "not_found",
+      "strengths": [],
+      "concerns": [
+        "No FastAPI evidence",
+        "No Redis evidence",
+        "No async evidence",
+        "No Docker evidence",
+        "No cloud platform evidence",
+        "Thin-wrapper AI project"
+      ],
+      "evidence": [
+        "Flask app that calls the OpenAI API to rewrite resume bullet points in a more professional tone"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_16.pdf",
+      "email": "h***@example.com"
+    },
+    {
+      "rank": 23,
+      "candidate_name": "Ishita Rao",
+      "eligible": true,
+      "total_score": 3.2,
+      "score_breakdown": {
+        "ai_project_depth": 4.2,
+        "python_backend": 11.0,
+        "cloud_fullstack": 0.0,
+        "github": 0.0,
+        "engineering_depth": 0.0,
+        "penalties": -12.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Resume Rewriter using GPT-4",
+          "backend integration +3: Flask app that calls the OpenAI API to rewrite resume bullet points in a more professional tone",
+          "LLM framework/API +1: Flask app that calls the OpenAI API to rewrite resume bullet points in a more professional tone",
+          "Second AI project 'AI Chatbot' adds 25% of its 1: +0.2"
+        ],
+        "python_backend": [
+          "Python +8.0/8 (applied): Resume Rewriter using GPT-4 | Python, Flask",
+          "other backend +3.0/3 (applied): Resume Rewriter using GPT-4 | Python, Flask"
+        ],
+        "cloud_fullstack": [],
+        "github": [
+          "GitHub profile 'zz-sample-ishita-15' not found or private."
+        ],
+        "engineering_depth": [],
+        "penalties": [
+          "-12: every AI project is a thin LLM/API wrapper (Resume Rewriter using GPT-4; AI Chatbot)"
+        ]
+      },
+      "matched_skills": [
+        "Python",
+        "Flask",
+        "Streamlit",
+        "OpenAI API",
+        "LLM",
+        "SQL"
+      ],
+      "project_summary": "Resume Rewriter using GPT-4: backend integration, built with Python, Flask, OpenAI API.",
+      "projects": [
+        "AI Chatbot",
+        "Resume Rewriter using GPT-4"
+      ],
+      "github_url": "https://github.com/zz-sample-ishita-15",
+      "github_summary": "GitHub profile 'zz-sample-ishita-15' not found or private.",
+      "github_status": "not_found",
+      "strengths": [],
+      "concerns": [
+        "No FastAPI evidence",
+        "No PostgreSQL evidence",
+        "No Redis evidence",
+        "No async evidence",
+        "No Docker evidence",
+        "No cloud platform evidence"
+      ],
+      "evidence": [
+        "Flask app that calls the OpenAI API to rewrite resume bullet points in a more professional tone"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_15.pdf",
+      "email": "i***@example.com"
+    },
+    {
+      "rank": 24,
+      "candidate_name": "Omkar Nair",
+      "eligible": true,
+      "total_score": 3.0,
+      "score_breakdown": {
+        "ai_project_depth": 4.0,
+        "python_backend": 11.0,
+        "cloud_fullstack": 0.0,
+        "github": 0.0,
+        "engineering_depth": 0.0,
+        "penalties": -12.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Resume Rewriter using GPT-4",
+          "backend integration +3: Flask app that calls the OpenAI API to rewrite resume bullet points in a more professional tone",
+          "LLM framework/API +1: Flask app that calls the OpenAI API to rewrite resume bullet points in a more professional tone"
+        ],
+        "python_backend": [
+          "Python +8.0/8 (applied): Resume Rewriter using GPT-4 | Python, Flask",
+          "other backend +3.0/3 (applied): Resume Rewriter using GPT-4 | Python, Flask"
+        ],
+        "cloud_fullstack": [],
+        "github": [
+          "GitHub profile 'zz-sample-omkar-14' not found or private."
+        ],
+        "engineering_depth": [],
+        "penalties": [
+          "-12: every AI project is a thin LLM/API wrapper (Resume Rewriter using GPT-4)"
+        ]
+      },
+      "matched_skills": [
+        "Python",
+        "Flask",
+        "pandas",
+        "scikit-learn",
+        "Streamlit",
+        "OpenAI API",
+        "LLM",
+        "SQL"
+      ],
+      "project_summary": "Resume Rewriter using GPT-4: backend integration, built with Python, Flask, OpenAI API.",
+      "projects": [
+        "Resume Rewriter using GPT-4",
+        "House Price Prediction"
+      ],
+      "github_url": "https://github.com/zz-sample-omkar-14",
+      "github_summary": "GitHub profile 'zz-sample-omkar-14' not found or private.",
+      "github_status": "not_found",
+      "strengths": [],
+      "concerns": [
+        "No FastAPI evidence",
+        "No PostgreSQL evidence",
+        "No Redis evidence",
+        "No async evidence",
+        "No Docker evidence",
+        "No cloud platform evidence"
+      ],
+      "evidence": [
+        "Flask app that calls the OpenAI API to rewrite resume bullet points in a more professional tone"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_14.pdf",
+      "email": "o***@example.com"
+    },
+    {
+      "rank": 25,
+      "candidate_name": "Varun Das",
+      "eligible": true,
+      "total_score": 2.6,
+      "score_breakdown": {
+        "ai_project_depth": 1.0,
+        "python_backend": 6.6,
+        "cloud_fullstack": 0.0,
+        "github": 0.0,
+        "engineering_depth": 0.0,
+        "penalties": -5.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Chat with PDF (LangChain)",
+          "LLM framework/API +1: Followed a YouTube tutorial to build a chat with PDF app using LangChain"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): Plant Disease Classifier | Python, PyTorch",
+          "other backend +1.0/3 (listed): Python, pandas, LangChain, OpenAI API, scikit-learn, SQL"
+        ],
+        "cloud_fullstack": [],
+        "github": [
+          "No GitHub profile on resume (0 points, not a rejection)."
+        ],
+        "engineering_depth": [],
+        "penalties": [
+          "-5: tutorial-style or no implementation detail (Chat with PDF (LangChain))"
+        ]
+      },
+      "matched_skills": [
+        "Python",
+        "pandas",
+        "PyTorch",
+        "scikit-learn",
+        "LangChain",
+        "OpenAI API",
+        "SQL"
+      ],
+      "project_summary": "Chat with PDF (LangChain): LLM API calls, built with LangChain.",
+      "projects": [
+        "Chat with PDF (LangChain)",
+        "Plant Disease Classifier"
+      ],
+      "github_url": null,
+      "github_summary": "No GitHub profile on resume (0 points, not a rejection).",
+      "github_status": "no_profile",
+      "strengths": [],
+      "concerns": [
+        "No FastAPI evidence",
+        "No PostgreSQL evidence",
+        "No Redis evidence",
+        "No async evidence",
+        "No Docker evidence",
+        "No cloud platform evidence"
+      ],
+      "evidence": [
+        "Followed a YouTube tutorial to build a chat with PDF app using LangChain"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_18.pdf",
+      "email": "v***@example.com"
+    },
+    {
+      "rank": 26,
+      "candidate_name": "Vikram Reddy",
+      "eligible": true,
+      "total_score": 2.6,
+      "score_breakdown": {
+        "ai_project_depth": 1.0,
+        "python_backend": 6.6,
+        "cloud_fullstack": 0.0,
+        "github": 0.0,
+        "engineering_depth": 0.0,
+        "penalties": -5.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Chat with PDF (LangChain)",
+          "LLM framework/API +1: Followed a YouTube tutorial to build a chat with PDF app using LangChain"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): House Price Prediction | Python, scikit-learn, pandas",
+          "other backend +1.0/3 (listed): Python, pandas, LangChain, OpenAI API, scikit-learn, SQL"
+        ],
+        "cloud_fullstack": [],
+        "github": [
+          "No GitHub profile on resume (0 points, not a rejection)."
+        ],
+        "engineering_depth": [],
+        "penalties": [
+          "-5: tutorial-style or no implementation detail (Chat with PDF (LangChain))"
+        ]
+      },
+      "matched_skills": [
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "LangChain",
+        "OpenAI API",
+        "SQL"
+      ],
+      "project_summary": "Chat with PDF (LangChain): LLM API calls, built with LangChain.",
+      "projects": [
+        "Chat with PDF (LangChain)",
+        "House Price Prediction"
+      ],
+      "github_url": null,
+      "github_summary": "No GitHub profile on resume (0 points, not a rejection).",
+      "github_status": "no_profile",
+      "strengths": [],
+      "concerns": [
+        "No FastAPI evidence",
+        "No PostgreSQL evidence",
+        "No Redis evidence",
+        "No async evidence",
+        "No Docker evidence",
+        "No cloud platform evidence"
+      ],
+      "evidence": [
+        "Followed a YouTube tutorial to build a chat with PDF app using LangChain"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_17.pdf",
+      "email": "v***@example.com"
+    },
+    {
+      "rank": 27,
+      "candidate_name": "Farhan Bose",
+      "eligible": true,
+      "total_score": 2.4,
+      "score_breakdown": {
+        "ai_project_depth": 1.0,
+        "python_backend": 11.4,
+        "cloud_fullstack": 0.0,
+        "github": 0.0,
+        "engineering_depth": 2.0,
+        "penalties": -12.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: AI Chatbot",
+          "LLM framework/API +1: Simple chatbot that sends the user prompt to the OpenAI API and displays the response in Streamlit"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): AI Chatbot | Python, Streamlit, OpenAI API",
+          "PostgreSQL +2.8/4 (stack): Inventory Management API | Python, Django, PostgreSQL",
+          "other backend +3.0/3 (applied): Developed REST APIs with Django REST Framework for stock tracking across 12 warehouses"
+        ],
+        "cloud_fullstack": [],
+        "github": [
+          "GitHub profile 'zz-sample-farhan-13' not found or private."
+        ],
+        "engineering_depth": [
+          "testing +1.0/1 (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation",
+          "queue +1.0/1 (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation"
+        ],
+        "penalties": [
+          "-12: every AI project is a thin LLM/API wrapper (AI Chatbot)"
+        ]
+      },
+      "matched_skills": [
+        "Python",
+        "Django",
+        "Flask",
+        "Celery",
+        "Streamlit",
+        "pytest",
+        "OpenAI API",
+        "LLM",
+        "PostgreSQL",
+        "SQL",
+        "REST API",
+        "Testing"
+      ],
+      "project_summary": "AI Chatbot: LLM API calls, built with Python, Streamlit, OpenAI API.",
+      "projects": [
+        "AI Chatbot",
+        "Inventory Management API"
+      ],
+      "github_url": "https://github.com/zz-sample-farhan-13",
+      "github_summary": "GitHub profile 'zz-sample-farhan-13' not found or private.",
+      "github_status": "not_found",
+      "strengths": [],
+      "concerns": [
+        "No FastAPI evidence",
+        "No Redis evidence",
+        "No async evidence",
+        "No Docker evidence",
+        "No cloud platform evidence",
+        "Thin-wrapper AI project"
+      ],
+      "evidence": [
+        "Simple chatbot that sends the user prompt to the OpenAI API and displays the response in Streamlit"
+      ],
+      "llm_status": "skipped",
+      "file": "candidate_13.pdf",
+      "email": "f***@example.com"
+    },
+    {
+      "rank": 28,
+      "candidate_name": "Farid Ahmed",
+      "eligible": true,
+      "total_score": 0.6,
+      "score_breakdown": {
+        "ai_project_depth": 4.0,
+        "python_backend": 8.6,
+        "cloud_fullstack": 0.0,
+        "github": 0.0,
+        "engineering_depth": 0.0,
+        "penalties": -12.0
+      },
+      "score_evidence": {
+        "ai_project_depth": [
+          "Best AI project: Email Summarizer",
+          "backend integration +3: Flask wrapper that calls the OpenAI API to summarize emails pasted by the user",
+          "LLM framework/API +1: Flask wrapper that calls the OpenAI API to summarize emails pasted by the user"
+        ],
+        "python_backend": [
+          "Python +5.6/8 (stack): Email Summarizer | Python, Flask",
+          "other backend +3.0/3 (applied): Flask wrapper that calls the OpenAI API to summarize emails pasted by the user"
+        ],
+        "cloud_fullstack": [],
+        "github": [
+          "No GitHub profile on resume (0 points, not a rejection)."
+        ],
+        "engineering_depth": [],
+        "penalties": [
+          "-12: every AI project is a thin LLM/API wrapper (Email Summarizer)"
+        ]
+      },
+      "matched_skills": [
+        "Python",
+        "Flask",
+        "OpenAI API",
+        "SQL"
+      ],
+      "project_summary": "Email Summarizer: backend integration, built with Python, Flask, OpenAI API.",
+      "projects": [
+        "Email Summarizer"
+      ],
+      "github_url": null,
+      "github_summary": "No GitHub profile on resume (0 points, not a rejection).",
+      "github_status": "no_profile",
+      "strengths": [],
+      "concerns": [
+        "No FastAPI evidence",
+        "No PostgreSQL evidence",
+        "No Redis evidence",
+        "No async evidence",
+        "No Docker evidence",
+        "No cloud platform evidence"
+      ],
+      "evidence": [
+        "Flask wrapper that calls the OpenAI API to summarize emails pasted by the user"
+      ],
+      "llm_status": "skipped",
+      "file": "farid_ahmed.txt",
+      "email": "f***@example.com"
+    }
+  ],
+  "rejected": [
+    {
+      "candidate_name": "Priya Reddy",
+      "eligible": false,
+      "rejection_reasons": [
+        "No AI/agentic project evidence"
+      ],
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Django",
+        "pandas",
+        "SQLAlchemy",
+        "Celery",
+        "pytest",
+        "Async programming",
+        "PostgreSQL",
+        "Redis",
+        "REST API",
+        "GCP",
+        "AWS",
+        "Docker",
+        "CI/CD",
+        "Testing",
+        "Observability",
+        "Data pipeline"
+      ],
+      "evidence": [
+        "Python (stack): Inventory Management API | Python, Django, PostgreSQL",
+        "FastAPI (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+        "Django (applied): Developed REST APIs with Django REST Framework for stock tracking across 12 warehouses",
+        "Celery (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation"
+      ],
+      "file": "candidate_23.pdf",
+      "email": "p***@example.com"
+    },
+    {
+      "candidate_name": "Karthik Gupta",
+      "eligible": false,
+      "rejection_reasons": [
+        "No AI/agentic project evidence"
+      ],
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Django",
+        "SQLAlchemy",
+        "Celery",
+        "pytest",
+        "Async programming",
+        "PostgreSQL",
+        "Redis",
+        "REST API",
+        "AWS",
+        "Docker",
+        "CI/CD",
+        "Testing"
+      ],
+      "evidence": [
+        "Python (stack): Inventory Management API | Python, Django, PostgreSQL",
+        "FastAPI (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+        "Django (applied): Developed REST APIs with Django REST Framework for stock tracking across 12 warehouses",
+        "Celery (applied): Wrote unit tests with pytest and added Celery jobs for nightly stock reconciliation"
+      ],
+      "file": "candidate_24.pdf",
+      "email": "k***@example.com"
+    },
+    {
+      "candidate_name": "Priya Khan",
+      "eligible": false,
+      "rejection_reasons": [
+        "No AI/agentic project evidence"
+      ],
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Django",
+        "pandas",
+        "SQLAlchemy",
+        "Celery",
+        "Async programming",
+        "PostgreSQL",
+        "Redis",
+        "GCP",
+        "AWS",
+        "Docker",
+        "CI/CD",
+        "Observability",
+        "Data pipeline"
+      ],
+      "evidence": [
+        "Python (stack): Sales ETL Pipeline | Python, Airflow, BigQuery",
+        "FastAPI (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+        "SQLAlchemy (applied): Developed async FastAPI services with PostgreSQL and SQLAlchemy handling 2M requests/day",
+        "pandas (applied): Built Airflow DAGs that ingest sales CSVs, clean them with pandas and load them into BigQuery"
+      ],
+      "file": "candidate_25.pdf",
+      "email": "p***@example.com"
+    },
+    {
+      "candidate_name": "Riya Gupta",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/agentic project evidence"
+      ],
+      "matched_skills": [
+        "MySQL",
+        "Java",
+        "Spring Boot",
+        "Architecture"
+      ],
+      "evidence": [],
+      "file": "candidate_26.pdf",
+      "email": "r***@example.com"
+    },
+    {
+      "candidate_name": "Omkar Shetty",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/agentic project evidence"
+      ],
+      "matched_skills": [
+        "MySQL",
+        "MongoDB",
+        "REST API",
+        "Deployment",
+        "React",
+        "JavaScript",
+        "Java",
+        "Spring Boot",
+        "Architecture"
+      ],
+      "evidence": [],
+      "file": "candidate_27.pdf",
+      "email": "o***@example.com"
+    },
+    {
+      "candidate_name": "Omkar Khan",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/agentic project evidence"
+      ],
+      "matched_skills": [
+        "MySQL",
+        "Java",
+        "Spring Boot",
+        "Architecture"
+      ],
+      "evidence": [],
+      "file": "candidate_28.pdf",
+      "email": "o***@example.com"
+    },
+    {
+      "candidate_name": "Arjun Sharma",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/agentic project evidence"
+      ],
+      "matched_skills": [
+        "MongoDB",
+        "REST API",
+        "Deployment",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "evidence": [],
+      "file": "candidate_29.pdf",
+      "email": "a***@example.com"
+    },
+    {
+      "candidate_name": "Nandini Iyer",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/agentic project evidence"
+      ],
+      "matched_skills": [
+        "MySQL",
+        "MongoDB",
+        "REST API",
+        "Deployment",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "Java",
+        "Spring Boot"
+      ],
+      "evidence": [],
+      "file": "candidate_30.pdf",
+      "email": "n***@example.com"
+    },
+    {
+      "candidate_name": "Nandini Singh",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/agentic project evidence"
+      ],
+      "matched_skills": [
+        "MongoDB",
+        "REST API",
+        "Deployment",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "evidence": [],
+      "file": "candidate_31.pdf",
+      "email": "n***@example.com"
+    },
+    {
+      "candidate_name": "Karthik Kulkarni",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack"
+      ],
+      "matched_skills": [
+        "AI agents",
+        "Tool calling",
+        "LangChain",
+        "OpenAI API",
+        "Embeddings",
+        "Vector search",
+        "MongoDB",
+        "NoSQL stores",
+        "REST API",
+        "Deployment",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "evidence": [
+        "LangChain (applied): Built a Next.js app using LangChain.js agents with tool calling to review pull requests",
+        "OpenAI API (stack): AI Code Reviewer | Next.js, TypeScript, LangChain.js, OpenAI",
+        "AI agents (applied): Built a Next.js app using LangChain.js agents with tool calling to review pull requests",
+        "Tool calling (applied): Built a Next.js app using LangChain.js agents with tool calling to review pull requests"
+      ],
+      "file": "candidate_32.pdf",
+      "email": "k***@example.com"
+    },
+    {
+      "candidate_name": "Ishita Gupta",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack"
+      ],
+      "matched_skills": [
+        "AI agents",
+        "Tool calling",
+        "LangChain",
+        "OpenAI API",
+        "Embeddings",
+        "Vector search",
+        "NoSQL stores",
+        "React",
+        "Next.js",
+        "TypeScript"
+      ],
+      "evidence": [
+        "LangChain (applied): Built a Next.js app using LangChain.js agents with tool calling to review pull requests",
+        "OpenAI API (stack): AI Code Reviewer | Next.js, TypeScript, LangChain.js, OpenAI",
+        "AI agents (applied): Built a Next.js app using LangChain.js agents with tool calling to review pull requests",
+        "Tool calling (applied): Built a Next.js app using LangChain.js agents with tool calling to review pull requests"
+      ],
+      "file": "candidate_33.pdf",
+      "email": "i***@example.com"
+    },
+    {
+      "candidate_name": "Kavya Shetty",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack"
+      ],
+      "matched_skills": [
+        "AI agents",
+        "Tool calling",
+        "LangChain",
+        "OpenAI API",
+        "Embeddings",
+        "Vector search",
+        "MongoDB",
+        "NoSQL stores",
+        "REST API",
+        "Deployment",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "evidence": [
+        "LangChain (applied): Built a Next.js app using LangChain.js agents with tool calling to review pull requests",
+        "OpenAI API (stack): AI Code Reviewer | Next.js, TypeScript, LangChain.js, OpenAI",
+        "AI agents (applied): Built a Next.js app using LangChain.js agents with tool calling to review pull requests",
+        "Tool calling (applied): Built a Next.js app using LangChain.js agents with tool calling to review pull requests"
+      ],
+      "file": "candidate_34.pdf",
+      "email": "k***@example.com"
+    },
+    {
+      "candidate_name": "Shreya Gupta",
+      "eligible": false,
+      "rejection_reasons": [
+        "Only classical ML evidence; no LLM/RAG/agentic project or framework"
+      ],
+      "matched_skills": [
+        "Python",
+        "pandas",
+        "NumPy",
+        "PyTorch",
+        "scikit-learn",
+        "SQL"
+      ],
+      "evidence": [
+        "Python (stack): House Price Prediction | Python, scikit-learn, pandas",
+        "pandas (applied): Trained gradient boosting and linear regression models on 20k listings with feature engineering in pandas",
+        "PyTorch (stack): Plant Disease Classifier | Python, PyTorch",
+        "scikit-learn (applied): Built a churn prediction model with scikit-learn and pandas, presented insights to leadership"
+      ],
+      "file": "candidate_35.pdf",
+      "email": "s***@example.com"
+    },
+    {
+      "candidate_name": "Arjun Rao",
+      "eligible": false,
+      "rejection_reasons": [
+        "Only classical ML evidence; no LLM/RAG/agentic project or framework"
+      ],
+      "matched_skills": [
+        "Python",
+        "pandas",
+        "NumPy",
+        "PyTorch",
+        "scikit-learn",
+        "SQL"
+      ],
+      "evidence": [
+        "Python (stack): Plant Disease Classifier | Python, PyTorch",
+        "pandas (applied): Built a churn prediction model with scikit-learn and pandas, presented insights to leadership",
+        "PyTorch (stack): Plant Disease Classifier | Python, PyTorch",
+        "scikit-learn (applied): Built a churn prediction model with scikit-learn and pandas, presented insights to leadership"
+      ],
+      "file": "candidate_36.pdf",
+      "email": "a***@example.com"
+    },
+    {
+      "candidate_name": "Varun Chopra",
+      "eligible": false,
+      "rejection_reasons": [
+        "Only classical ML evidence; no LLM/RAG/agentic project or framework"
+      ],
+      "matched_skills": [
+        "Python",
+        "pandas",
+        "NumPy",
+        "PyTorch",
+        "scikit-learn",
+        "SQL"
+      ],
+      "evidence": [
+        "Python (stack): House Price Prediction | Python, scikit-learn, pandas",
+        "pandas (applied): Trained gradient boosting and linear regression models on 20k listings with feature engineering in pandas",
+        "scikit-learn (applied): Built a churn prediction model with scikit-learn and pandas, presented insights to leadership"
+      ],
+      "file": "candidate_37.pdf",
+      "email": "v***@example.com"
+    },
+    {
+      "candidate_name": "Kavya Nair",
+      "eligible": false,
+      "rejection_reasons": [
+        "Python mentioned only as something being learned, not as a working skill"
+      ],
+      "matched_skills": [
+        "AI agents",
+        "Tool calling",
+        "LangChain",
+        "OpenAI API",
+        "Embeddings",
+        "Vector search",
+        "NoSQL stores",
+        "React",
+        "Next.js",
+        "TypeScript"
+      ],
+      "evidence": [
+        "LangChain (applied): Built a Next.js app using LangChain.js agents with tool calling to review pull requests",
+        "OpenAI API (stack): AI Code Reviewer | Next.js, TypeScript, LangChain.js, OpenAI",
+        "AI agents (applied): Built a Next.js app using LangChain.js agents with tool calling to review pull requests",
+        "Tool calling (applied): Built a Next.js app using LangChain.js agents with tool calling to review pull requests"
+      ],
+      "file": "candidate_38.pdf",
+      "email": "k***@example.com"
+    },
+    {
+      "candidate_name": "Meera Joshi",
+      "eligible": false,
+      "rejection_reasons": [
+        "Python mentioned only as something being learned, not as a working skill"
+      ],
+      "matched_skills": [
+        "AI agents",
+        "Tool calling",
+        "LangChain",
+        "OpenAI API",
+        "Embeddings",
+        "Vector search",
+        "MongoDB",
+        "NoSQL stores",
+        "REST API",
+        "Deployment",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "evidence": [
+        "LangChain (applied): Built a Next.js app using LangChain.js agents with tool calling to review pull requests",
+        "OpenAI API (stack): AI Code Reviewer | Next.js, TypeScript, LangChain.js, OpenAI",
+        "AI agents (applied): Built a Next.js app using LangChain.js agents with tool calling to review pull requests",
+        "Tool calling (applied): Built a Next.js app using LangChain.js agents with tool calling to review pull requests"
+      ],
+      "file": "candidate_39.pdf",
+      "email": "m***@example.com"
+    },
+    {
+      "candidate_name": "Mohit Arora",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/agentic project evidence"
+      ],
+      "matched_skills": [
+        "MongoDB",
+        "Deployment",
+        "React",
+        "JavaScript"
+      ],
+      "evidence": [],
+      "file": "candidate_42.pdf",
+      "email": "m***@example.com"
+    }
+  ],
+  "failed": [
+    {
+      "file": "candidate_01_copy.pdf",
+      "status": "duplicate",
+      "error": "Identical file content to candidate_01.pdf"
+    },
+    {
+      "file": "profile_photo.png",
+      "status": "failed",
+      "error": "Unsupported file type '.png'"
+    },
+    {
+      "file": "candidate_02_resubmission.pdf",
+      "status": "duplicate",
+      "error": "Same candidate email as candidate_02.pdf"
+    },
+    {
+      "file": "corrupted_resume.pdf",
+      "status": "failed",
+      "error": "Could not read .pdf file: Failed to open stream"
+    },
+    {
+      "file": "scanned_resume.pdf",
+      "status": "failed",
+      "error": "No extractable text (empty or scanned/image-only document)"
+    }
+  ]
+}
